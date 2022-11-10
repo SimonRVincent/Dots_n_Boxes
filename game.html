@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simon's Dots and Boxes</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body onload="setup()">
+    <div>
+      <a href="index.html"><h3>&larr; Back</h3></a>
+    </div>
+
+    <div class="container">
+      <h1 style="color: red;">Simon's Dots & Boxes</h1>
+      <button onclick="window.location.href='game.html';">Restart</button>
+      <br>
+      <div id="playerOptions">
+        <h3>Number of Players: </h3>
+        <button onclick="twoPlayers()">2</button>
+        <button onclick="threePlayers()">3</button>
+      </div>
+      <hr>
+      <h2>Score</h2>
+      <div id="scores">
+        <!-- scores here -->
+      </div>
+      <hr>
+      <div>
+        <h3 id="turnText">It is Player</h3>
+      </div>
+   </div>
+    <div id="board">
+      <div class="row">
+        <div class="square" id="sq1"></div>
+        <div class="square" id="sq2"></div>
+        <div class="square" id="sq3"></div>
+      </div>
+      <div class="row">
+        <div class="square" id="sq4"></div>
+        <div class="square" id="sq5"></div>
+        <div class="square" id="sq6"></div>
+      </div>
+      <div class="row">
+        <div class="square" id="sq7"></div>
+        <div class="square" id="sq8"></div>
+        <div class="square" id="sq9"></div>
+      </div>
+    </div>
+
+	<script src="js/index.js"></script>
+  </body>
+</html>

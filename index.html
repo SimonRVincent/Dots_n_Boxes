@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simon's Dots and Boxes</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+    <div class="container">
+        <div>
+          <h1 style="color: red;">Simon's Dots & Boxes</h1>
+        </div>
+        <div>
+          <h2>Instructions</h2>
+          <ul>
+            <li>The game is played starting with a 3x3 array of squares.</li>
+            <br>
+            <li>The players take turns clicking on lines to create squares. If a player completes the fourth side of a box, they get a point and get to draw another line.</li>
+            <br>
+            <li>When all the boxes have been completed the winner is the player who has the most points.</ul>
+          </ul>
+          <h3>Some things to note:</h3>
+          <ul>
+            <li>Do not click on an already drawn line. You will lose your turn.</li>
+            <br>
+            <li>You can change the number of players mid-game.</li>
+          </ul>
+        </div>
+        <br>
+        <div>
+            <button onclick="window.location.href='game.html'; getNumPlayers()">Start</button>
+        </div>
+    </div>
+
+	<script src="js/index.js"></script>
+  </body>
+</html>
