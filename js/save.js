@@ -1,3 +1,6 @@
+/* This file was used to work on and keep the integrity of the original
+click/mouseover event algorithm. It is not used in the game. */
+
 /* Proximity thing */
 
 document.querySelectorAll(".square").forEach(item => { item.addEventListener('mouseover', (ev) => {
